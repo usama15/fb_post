@@ -35,9 +35,9 @@ img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqndc2h6rTCUNWUDREc5H
 post="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXs91BeBnh_YnINvIRE7VVbnkjd6lBjF261g&usqp=CAU"
 time="1 December at 22:23"
 />
-{/*<Hi name="saad" 
+<Hi name="saad" 
 img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5eeqnRAnpfiMMgZMoPdZvcNUUwYFrvxjrRg&usqp=CAU"
 post="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvwgoQP1QPM-fZ13Yckn9nGVgig3d48w-szg&usqp=CAU"
-/>*/}</div>  
+/></div>  
 
 , document.querySelector("#root"));
