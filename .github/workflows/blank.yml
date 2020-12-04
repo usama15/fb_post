@@ -6,8 +6,8 @@ name: to-do
 # events but only for the main branch
 on:
   push:
-    branches: [ main ]
- 
+    branches: [main]
+
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
@@ -28,7 +28,6 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Installing surge
-        run:  npm install -g surge
+        run: npm install -g surge
       - name: Deploying using surge
-        run: surge ./ fb_post_us.surge.sh --token ${{ secrets.TOKEN }}
-         
+        run: surge ./public fb_post_us.surge.sh --token ${{ secrets.TOKEN }}
