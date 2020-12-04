@@ -30,4 +30,4 @@ jobs:
       - name: Installing surge
         run: npm install -g surge
       - name: Deploying using surge
-        run: surge ./public fb_post_us.surge.sh --token ${{ secrets.TOKEN }}
+        run: surge ./build fb_post_us.surge.sh --token ${{ secrets.TOKEN }}
