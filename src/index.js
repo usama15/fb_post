@@ -38,5 +38,6 @@ time="1 December at 22:23"
 <Hi name="saad" 
 img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5eeqnRAnpfiMMgZMoPdZvcNUUwYFrvxjrRg&usqp=CAU"
 post="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvwgoQP1QPM-fZ13Yckn9nGVgig3d48w-szg&usqp=CAU"
+time="2 December at 12:26"
 /></div>  
 , document.querySelector("#root"));
